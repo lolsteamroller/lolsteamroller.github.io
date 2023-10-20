@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Draw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="column">
+        <h3>Game Modifiers</h3>
+        <button onclick="resetDeck()">Reset</button>
+        <button onclick="drawCard()">Draw Card</button>
+        <div id="chances"></div>
+        <hr>
+        <h3>Drawn Card:</h3>
+        <div id="modifier"></div>
+        <div id="description"></div>
+    </div>
+    
+    <div class="column">
+        <h3>Map Modifiers</h3>
+        <button onclick="resetDeck2()">Reset</button>
+        <button onclick="drawCard2()">Draw Card</button>
+        <div id="chances2"></div>
+        <hr>
+        <h3>Drawn Card from Second Deck:</h3>
+        <div id="modifier2"></div>
+        <div id="description2"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
